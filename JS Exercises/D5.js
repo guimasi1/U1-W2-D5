@@ -34,7 +34,7 @@ for (let i = 0; i < pets.length; i++) {
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
 const firstPet = pets.splice(0, 1);
-pets.push(firstPet);
+pets.push(firstPet.toString());
 console.log(pets);
 
 /* ESERCIZIO 5
@@ -80,8 +80,8 @@ const newCar = {
 
 cars.push(newCar);
 
-// console.log(cars);
-
+console.log(cars);
+// CODICE PER RIMUOVERE L'ELEMENTO DELLA PROPRIETA' TRIMS
 // for (let i = 0; i < cars.length; i++) {
 //   delete cars[i].trims;
 // }

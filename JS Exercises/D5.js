@@ -119,15 +119,28 @@ const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ];
 
-for (let i = 0; i < numericArray.length; i++) {
+let i = 0;
+while (i < numericArray.length) {
   if (numericArray[i] === 32) {
     console.log(numericArray[i]);
     console.log("Sei arrivato al numero 32.");
     break;
   } else {
     console.log(numericArray[i]);
+    i++;
   }
 }
+
+// FATTO CON "FOR" VERREBBE:
+// for (let i = 0; i < numericArray.length; i++) {
+//   if (numericArray[i] === 32) {
+//     console.log(numericArray[i]);
+//     console.log("Sei arrivato al numero 32.");
+//     break;
+//   } else {
+//     console.log(numericArray[i]);
+//   }
+// }
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno

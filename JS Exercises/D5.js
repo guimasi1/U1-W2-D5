@@ -79,6 +79,7 @@ const newCar = {
 };
 
 cars.push(newCar);
+
 // console.log(cars);
 
 // for (let i = 0; i < cars.length; i++) {

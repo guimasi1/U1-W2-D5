@@ -1,1 +1,158 @@
 /* Your styles here */
+/* GENERAL */
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+
+/* HEADER */
+
+.bar {
+  background-color: #222f3f;
+  padding: 0.5em 2em;
+}
+
+.bar img {
+  width: 7%;
+}
+.nav {
+  background-color: #364759;
+  padding: 0.5em 2em;
+  color: #dce6ec;
+  font-size: 0.9em;
+}
+.nav li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+/* MAIN */
+
+.main {
+  background-color: #e9edee;
+  width: 97%;
+  margin: 1.5em auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#shop-holiday {
+  background-color: #f56600;
+  color: #fee4c1;
+  padding: 0.7em 0;
+  font-size: 0.9em;
+}
+
+.margin-bottom {
+  margin-bottom: 1.8em;
+}
+
+.display {
+  display: inline-block;
+}
+
+.gift-guides {
+  background-image: url("../images/bg-image.png");
+  height: 25vh;
+  background-size: 88%;
+  background-repeat: repeat;
+  color: #dcefec;
+}
+
+#prova {
+  margin-top: 5%;
+  margin-bottom: 1em;
+}
+
+.gift-guides h1 {
+  margin-bottom: auto;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.gift-guides h3 {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.section2 {
+  background-color: #ffffff;
+  padding: 0 1.2em 1em;
+}
+
+#first-h2 {
+  margin: 1em 0.8em 1em 0;
+}
+
+.h2 {
+  font-size: 1.1em;
+  margin-right: 0.8em;
+  margin-bottom: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.8em;
+}
+
+.links {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+.images-section2 {
+  margin-right: 2%;
+  margin-left: auto;
+  width: 22.5%;
+  height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10% 40%;
+  border-radius: 1em;
+  box-shadow: 12px -10px 21px #e0e3e5, -4px -1px 7px #e0e3e5;
+}
+
+.img_1 {
+  background-image: url(../images/img_1.jpg);
+}
+.img_2 {
+  background-image: url(../images/img_2.jpg);
+}
+.img_3 {
+  background-image: url(../images/img_3.jpg);
+}
+.img_4 {
+  background-image: url(../images/img_4.jpg);
+}
+
+/* .images-section2 img {
+  width: 100%;
+  border-radius: 1em;
+} */
+.top-link {
+  background-color: #364759;
+  padding: 0.8em 0;
+  font-weight: bold;
+}
+.top-link a:link {
+  color: #e5e9eb;
+}
+.vr {
+  width: 100%;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #222f3f;
+  padding: 4em 0;
+}
+
+#link-top {
+  color: #e3ebf3;
+}
+
+#footer img {
+  width: 8%;
+}
